@@ -1,1 +1,1 @@
-
+gem "jekyll-remote-theme"
