@@ -1,1 +1,16 @@
+title: Enzo Fuke
+description: My personal website
+url: "https://milesonerd.github.io"
+baseurl: ""
+
+author:
+  name: "Enzo Fuke"
+
+markdown: kramdown
+theme: alembic
+
+header_pages:
+  - about.md
+  - contact.md
+  - _posts
 
