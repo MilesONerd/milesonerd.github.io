@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://milesonerd.github.io/sitemap.xml 
