@@ -55,36 +55,33 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-  	.hero {
-    	position: relative;
-    	padding: 100px 0;
-    	text-align: center;
-    	color: white;
-  	}
+	.hero {
+  	background-image: url('image/Phoenix.jpg');
+  	background-size: 100% auto;
+  	background-position: center top;
+  	background-repeat: no-repeat;
+  	height: 200px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	color: white;
+  	text-align: center;
+	}
 
-  	.hero::before {
-    	content: '';
-    	position: absolute;
-    	top: 0;
-    	left: 0;
-    	right: 0;
-    	bottom: 0;
-    	background-color: rgba(0, 0, 0, 0.5); /* Adiciona um overlay escuro para melhorar a legibilidade */
-  	}
+	.hero-content {
+  	background-color: rgba(0, 0, 0, 0.5);
+  	padding: 20px;
+  	width: 100%;
+	}
 
-  	.hero-content {
-    	position: relative;
-    	z-index: 1;
-  	}
+	.hero h1 {
+  	font-size: 2em;
+  	margin-bottom: 0.2em;
+	}
 
-  	.hero h1 {
-    	font-size: 3em;
-    	margin-bottom: 0.5em;
-  	}
-
-  	.hero p {
-    	font-size: 1.2em;
-  	}
+	.hero p {
+  	font-size: 1em;
+	}
         .content {
             display: flex;
             flex-wrap: wrap;
@@ -175,12 +172,10 @@
 
     <main>
         <section class="hero">
-		<div class="section hero" style="background-image: url('image/Phoenix.jpg'); background-size: cover; background-position: center;">
+		<div class="section hero">
   			<div class="hero-content">
-				<div align="center">
-    					<h1>Enzo Fuke</h1>
-    					<h2><p>If it hasn't worked out yet, it's because it's not over yet</p></h2>
-				</div>
+    				<h1>Enzo Fuke</h1>
+    				<h2><p>If it hasn't worked out yet, it's because it's not over yet</p></h2>
   			</div>
 		</div>
         </section>
