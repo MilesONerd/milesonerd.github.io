@@ -65,6 +65,39 @@
                 padding: 20px;
                 background-color: #000;
             }
+	header {
+	    background-color: #000;
+	    padding: 10px 20px;
+	    border-bottom: 2px solid #fff;
+	}
+	
+	nav ul {
+	    display: flex;
+	    justify-content: space-around;
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	}
+	
+	nav ul li {
+	    margin: 0 10px;
+	}
+	
+	nav ul li a {
+	    font-size: 18px;
+	    color: #fff;
+	    text-decoration: none;
+	    padding: 5px 10px;
+	    border: 1px solid transparent;
+	    transition: all 0.3s ease;
+	}
+	
+	nav ul li a:hover {
+	    color: #f0f0f0;
+	    border: 1px solid #f0f0f0;
+	    border-radius: 4px;
+	    background-color: rgba(255, 255, 255, 0.1);
+	}
             .content {
                 display: flex;
                 flex-wrap: wrap;
@@ -115,6 +148,16 @@
                 width: 100%;
                 padding: 10px;
             }
+	    header {
+	        text-align: center; /* Centraliza o texto no cabeçalho para telas menores */
+	    }
+	    nav ul {
+	        flex-direction: column; /* Organiza os itens em coluna */
+	        align-items: center; /* Centraliza os itens horizontalmente */
+	    }
+	    nav ul li {
+	        margin: 5px 0; /* Espaçamento entre os itens em tela pequena */
+	    }
         }
     	</style>
     
@@ -129,7 +172,8 @@
 	        <li><a href="/about">About</a></li>
 	      </ul>
 	    </nav>
-	</header>		    
+	</header>	
+	  
             <section class="content">
               <div class="column">
 		<h2>About Me</h2>
