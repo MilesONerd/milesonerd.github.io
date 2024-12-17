@@ -9,7 +9,7 @@ const postList = document.getElementById('post-list');
 const contentDiv = document.getElementById('content');
 
 async function fetchPostList() {
-    const url = `https://api.github.com/repos/MilesONerd/milesonerd.github.io/contents//blog/posts?ref=update-urls`;
+    const url = "https://cors-anywhere.herokuapp.com/https://api.github.com/repos/MilesONerd/milesonerd.github.io/contents/blog/posts?ref=update-urls";
 
     try {
         const response = await fetch(url);
