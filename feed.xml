@@ -70,6 +70,14 @@
       <description>Website blog.</description> 
       <pubDate>Tue, 17 Dec 2024 10:00:00 +0000</pubDate> 
     </item> 
+
+    <!-- 404 -->
+    <item> 
+      <title>404 Error</title> 
+      <link>https://milesonerd.github.io/404</link> 
+      <description>Error 404 Page</description> 
+      <pubDate>Tue, 17 Dec 2024 13:00:00 +0000</pubDate> 
+    </item> 
     
   </channel> 
 </rss>
