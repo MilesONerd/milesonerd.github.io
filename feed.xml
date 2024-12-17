@@ -46,6 +46,14 @@
       <description>Learn more about how uses the site.</description> 
       <pubDate>Tue, 16 Dec 2024 12:00:00 +0000</pubDate> 
     </item> 
+
+    <!-- Contact -->
+    <item> 
+      <title>Contact</title> 
+      <link>https://milesonerd.github.io/contact</link> 
+      <description>Contact me.</description> 
+      <pubDate>Tue, 16 Dec 2024 13:00:00 +0000</pubDate> 
+    </item> 
     
   </channel> 
 </rss>
