@@ -23,12 +23,28 @@
       <pubDate>Tue, 10 Dec 2024 09:00:00 +0000</pubDate> 
     </item> 
 
-    <!-- Privacy Police -->
+    <!-- Privacy Policy -->
     <item> 
-      <title>Privacy Police</title> 
+      <title>Privacy Policy</title> 
       <link>https://milesonerd.github.io/privacy-policy</link> 
       <description>Learn more about how the site uses your data.</description> 
       <pubDate>Tue, 16 Dec 2024 10:00:00 +0000</pubDate> 
+    </item> 
+
+    <!-- Cookies Policy -->
+    <item> 
+      <title>Cookies Policy</title> 
+      <link>https://milesonerd.github.io/cookies</link> 
+      <description>Learn more about how the site uses cookies.</description> 
+      <pubDate>Tue, 16 Dec 2024 11:00:00 +0000</pubDate> 
+    </item>
+
+    <!-- Acessibility -->
+    <item> 
+      <title>Acessibility</title> 
+      <link>https://milesonerd.github.io/acessibility</link> 
+      <description>Learn more about how uses the site.</description> 
+      <pubDate>Tue, 16 Dec 2024 12:00:00 +0000</pubDate> 
     </item> 
     
   </channel> 
