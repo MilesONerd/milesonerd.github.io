@@ -1,9 +1,9 @@
 const converter = new showdown.Converter();
 
-const username = 'MilesONerd'; 
-const repo = 'milesonerd.github.io';        
-const folder = 'posts';              
-const branch = 'update-urls';               
+const username = 'MilesONerd';
+const repo = 'milesonerd.github.io';
+const folder = 'posts';
+const branch = 'update-urls';
 
 const postList = document.getElementById('post-list');
 const contentDiv = document.getElementById('content');
@@ -26,12 +26,12 @@ async function fetchPostList() {
             postList.appendChild(listItem);
         });
 
-        document.querySelectorAll('#post-list a').forEach(link => {
-            link.addEventListener('click', (e) => {
+        postList.addEventListener('click', (e) => {
+            if (e.target.tagName.toLowerCase() === 'a') {
                 e.preventDefault();
                 const postUrl = e.target.getAttribute('data-url');
                 loadPostContent(postUrl);
-            });
+            }
         });
 
     } catch (error) {
