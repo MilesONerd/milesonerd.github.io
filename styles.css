@@ -1,5 +1,5 @@
 body { 
-    font-family: Times New Roman, serif;
+    font-family: 'Times New Roman', serif;
     line-height: 1.6;
     color: #fff;
     max-width: 1200px;
@@ -39,7 +39,8 @@ nav ul li a:hover {
     color: #f0f0f0;
     border: 1px solid #f0f0f0;
     border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo mais suave */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* Sombra sutil */
 }
 
 .header {
@@ -73,11 +74,13 @@ nav ul li a:hover {
     text-decoration: none;
     border-bottom: 2px solid #ffffff;
     padding-bottom: 5px;
+    width: 48%; /* Ajuste de largura para uma exibição mais harmônica */
+    box-sizing: border-box;
 }
 
 .footer {
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0 20px 0; /* Mais espaçamento no topo */
     border-top: 1px solid #ddd;
 }
 
