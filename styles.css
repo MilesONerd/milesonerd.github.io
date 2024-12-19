@@ -1,17 +1,23 @@
-body {
-    font-family: Times New Roman, serif;
+:root {
+    --white: #fff;
+    --black: #000;
+    --hover-color: #f0f0f0;
+}
+
+body { 
+    font-family: "Times New Roman", serif;
     line-height: 1.6;
-    color: #fff;
+    color: var(--white);
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #000;
+    background-color: var(--black);
 }
 
 header {
-    background-color: #000;
+    background-color: var(--black);
     padding: 10px 20px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid var(--white);
 }
 
 nav ul {
@@ -26,18 +32,18 @@ nav ul li {
     margin: 0 10px;
 }
 
-nav ul li a {
+a, nav ul li a {
     font-size: 18px;
-    color: #fff;
+    color: var(--white);
     text-decoration: none;
     padding: 5px 10px;
     border: 1px solid transparent;
     transition: all 0.3s ease;
 }
 
-nav ul li a:hover {
-    color: #f0f0f0;
-    border: 1px solid #f0f0f0;
+a:hover, nav ul li a:hover {
+    color: var(--hover-color);
+    border: 1px solid var(--hover-color);
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -69,9 +75,9 @@ nav ul li a:hover {
 .column {
     font-size: 24px;
     font-weight: bold;
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid var(--white);
     padding-bottom: 5px;
 }
 
@@ -81,21 +87,12 @@ nav ul li a:hover {
     border-top: 1px solid #ddd;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
 a:visited {
-    color: #ffffff;
-}
-
-a:hover {
-    color: #f0f0f0;
+    color: var(--white);
 }
 
 a:active {
-    color: #ffffff;
+    color: var(--white);
 }
 
 .column ul {
