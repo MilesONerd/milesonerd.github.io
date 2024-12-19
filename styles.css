@@ -1,23 +1,17 @@
-:root {
-    --white: #fff;
-    --black: #000;
-    --hover-color: #f0f0f0;
-}
-
 body { 
-    font-family: "Times New Roman", serif;
+    font-family: Times New Roman, serif;
     line-height: 1.6;
-    color: var(--white);
+    color: #fff;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: var(--black);
+    background-color: #000;
 }
 
 header {
-    background-color: var(--black);
+    background-color: #000;
     padding: 10px 20px;
-    border-bottom: 2px solid var(--white);
+    border-bottom: 2px solid #fff;
 }
 
 nav ul {
@@ -32,18 +26,18 @@ nav ul li {
     margin: 0 10px;
 }
 
-a, nav ul li a {
+nav ul li a {
     font-size: 18px;
-    color: var(--white);
+    color: #fff;
     text-decoration: none;
     padding: 5px 10px;
     border: 1px solid transparent;
     transition: all 0.3s ease;
 }
 
-a:hover, nav ul li a:hover {
-    color: var(--hover-color);
-    border: 1px solid var(--hover-color);
+nav ul li a:hover {
+    color: #f0f0f0;
+    border: 1px solid #f0f0f0;
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -75,9 +69,9 @@ a:hover, nav ul li a:hover {
 .column {
     font-size: 24px;
     font-weight: bold;
-    color: var(--white);
+    color: #ffffff;
     text-decoration: none;
-    border-bottom: 2px solid var(--white);
+    border-bottom: 2px solid #ffffff;
     padding-bottom: 5px;
 }
 
@@ -87,12 +81,21 @@ a:hover, nav ul li a:hover {
     border-top: 1px solid #ddd;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 a:visited {
-    color: var(--white);
+    color: #ffffff;
+}
+
+a:hover {
+    color: #f0f0f0;
 }
 
 a:active {
-    color: var(--white);
+    color: #ffffff;
 }
 
 .column ul {
