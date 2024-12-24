@@ -104,6 +104,69 @@ a:active {
     margin: 0;
 }
 
+form {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form label {
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #f0f0f0;
+    outline: none;
+    background-color: #333;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+form .message {
+    font-size: 16px;
+    color: #ff5e5e;
+    margin-top: 10px;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .header, .content {
         flex-direction: column;
