@@ -124,6 +124,7 @@ form label {
 
 form input[type="text"],
 form input[type="email"],
+form input[type="subject"],
 form textarea {
     width: 100%;
     padding: 12px;
