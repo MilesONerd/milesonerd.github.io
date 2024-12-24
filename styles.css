@@ -139,6 +139,7 @@ form textarea {
 
 form input[type="text"]:focus,
 form input[type="email"]:focus,
+form input[type="subject"]:focus,
 form textarea:focus {
     border-color: #f0f0f0;
     outline: none;
