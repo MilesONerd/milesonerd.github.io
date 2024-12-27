@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <style>
+        body {
+            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+            line-height: 1.5;
+            max-width: 60rem;
+            padding: 2rem;
+            margin: auto;
+        }
+
+        .container {
+            margin-top: 5rem;
+            text-align: center;
+        }
+
+        h1 {
+            display: inline-block;
+            margin: 0;
+            margin-right: 1rem;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            vertical-align: top;
+            border-right: 1px solid #e1e4e8;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 1;
+        }
+
+        h2 {
+            display: inline-block;
+            margin: 0;
+            line-height: 1;
+            font-size: 14px;
+            font-weight: normal;
+            color: #666;
+        }
+
+        #suggestions {
+            margin-top: 2rem;
+            color: #666;
+        }
+
+        #suggestions a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        #suggestions a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 50px;
+            color: #666;
+            text-align: center;
+        }
+
+        footer a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <h2>"You didn't find the page, but you found a new beginning! 🐦"</h2>
+
+        <div id="suggestions">
+          <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+          <a href="/contact">If you wish, please contact us using the email provided on the contact page.</a>
+        </div>
+
+        <!-- Quote Section -->
+        <div class="quote-container" style="text-align: center; margin-top: 30px;">
+          <h2 id="random-quote" style="font-weight: normal;"></h2>
+          <h3 id="quote-author" style="font-weight: normal;"></h3>
+          <button id="another-quote" style="margin-top: 15px; padding: 10px 20px; font-size: 16px; cursor: pointer; background: none; color: inherit; border: 1px solid currentColor; border-radius: 4px;">Another Quote</button>
+        </div>
+    </div>
+
+    <footer>
+        <h5>
+            <a href="/">Home</a> &mdash;
+            <a href="/about">About</a> &mdash;
+            <a href="/contact">Contact</a> &mdash;
+            <a href="/privacy-policy">Privacy Policy</a> &mdash;
+            <a href="/cookies">Cookies</a> &mdash;
+            <a href="/terms-of-service">Terms of Service</a> &mdash;
+            <a href="/acessibility">Accessibility</a>
+        </h5>
+    </footer>
+    <script src="scripts/quotes.js"></script>
+</body>
+</html>
