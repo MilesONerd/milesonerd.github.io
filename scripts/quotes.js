@@ -1,4 +1,5 @@
 const quotes = [
+    { quote: "If it hasn't worked out yet, it's because it's not over yet", author: "MilesONerd" },
     { quote: "Aren't you a little short for a stormtrooper?", author: "Leia Organa" },
     { quote: "I am altering the deal, pray I do not alter it further.", author: "Darth Vader" },
     { quote: "No! I don't think he likes you at all... No, I don't like you either.", author: "C-3PO" },
@@ -79,6 +80,16 @@ const quotes = [
     { quote: "A winner is you", author: "Pro Wrestling" },
     { quote: "All your base are belong to us.", author: "CATS" },
     { quote: "Avengers Assemble!", author: "Captain America" },
+    { quote: "Jacked up and good to go.", author: "Marine" },
+    { quote: "Zeus your son has returned?", author: "Kratos" },
+    { quote: "I'll do YOU one better! WHY is Gamora?", author: "Drax The Destoryer" },
+    { quote: "Bring me a bucket, and I'll show you a bucket!", author: "Psycho" },
+    { quote: "No gods or kings. Only man.", author: "Andrew Ryan" },
+    { quote: "...", author: "Link" },
+    { quote: "It's dangerous to go alone, take this!", author: "Old Man" },
+    { quote: "Endure and survive.", author: "Ellie" },
+    { quote: "You are here, and it's beautiful, and escaping isn't always something bad.", author: "Delilah" },
+    { quote: "Stay awhile, and listen!", author: "Deckard Cain" },
 ];
 
 function getRandomQuote() {
