@@ -171,6 +171,16 @@ const quotes = [
     { quote: "The cake is a lie.", author: "GLaDOS" },
     { quote: "War. War never changes.", author: "Narrator" },
     { quote: "You either die a hero, or you live long enough to see yourself become the villain.", author: "Harvey Dent" },
+    { quote: "I've lived my life by a code. I never kill unless I have to.", author: "Kratos" },
+    { quote: "There’s no place like home.", author: "Dorothy" },
+    { quote: "You can't handle the truth!", author: "Colonel Jessup" },
+    { quote: "I'm gonna make him an offer he can't refuse.", author: "Vito Corleone" },
+    { quote: "The world is yours.", author: "Tony Montana" },
+    { quote: "It’s not who I am underneath, but what I do that defines me.", author: "Buce Wayne" },
+    { quote: "I find your lack of faith disturbing.", author: "Darth Vader" },
+    { quote: "Just keep swimming.", author: "Dory" },
+    { quote: "To infinity and beyond!", author: "Buzz Lightyear" },
+    { quote: "This is the start of a beautiful friendship.", author: "Rick Blaine" },
 ];
 
 function getRandomQuote() {
