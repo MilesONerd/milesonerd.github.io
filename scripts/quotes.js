@@ -176,7 +176,7 @@ const quotes = [
     { quote: "You can't handle the truth!", author: "Colonel Jessup" },
     { quote: "I'm gonna make him an offer he can't refuse.", author: "Vito Corleone" },
     { quote: "The world is yours.", author: "Tony Montana" },
-    { quote: "It’s not who I am underneath, but what I do that defines me.", author: "Buce Wayne" },
+    { quote: "It’s not who I am underneath, but what I do that defines me.", author: "Bruce Wayne" },
     { quote: "I find your lack of faith disturbing.", author: "Darth Vader" },
     { quote: "Just keep swimming.", author: "Dory" },
     { quote: "To infinity and beyond!", author: "Buzz Lightyear" },
