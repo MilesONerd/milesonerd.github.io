@@ -181,6 +181,7 @@ const quotes = [
     { quote: "Just keep swimming.", author: "Dory" },
     { quote: "To infinity and beyond!", author: "Buzz Lightyear" },
     { quote: "This is the start of a beautiful friendship.", author: "Rick Blaine" },
+    { quote: "I can do this all day", author: "Steve Rogers" },
 ];
 
 function getRandomQuote() {
