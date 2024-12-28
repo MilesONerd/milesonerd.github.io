@@ -166,6 +166,11 @@ const quotes = [
     { quote: "Maaaaaaaaario?", author: "Luigi" },
     { quote: "Medals don't help me sleep at night, Lambert.", author: "Sam Fisher" },
     { quote: "I'm Sorry I don't like the way you are looking at me", author: "Vass" },
+    { quote: "It's dangerous to go alone! Take this.", author: "Old Man" },
+    { quote: "I am vengeance. I am the night. I am Batman.", author: "Batman" },
+    { quote: "The cake is a lie.", author: "GLaDOS" },
+    { quote: "War. War never changes.", author: "Narrator" },
+    { quote: "You either die a hero, or you live long enough to see yourself become the villain.", author: "Harvey Dent" },
 ];
 
 function getRandomQuote() {
