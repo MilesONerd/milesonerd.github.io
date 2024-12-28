@@ -129,7 +129,7 @@ const quotes = [
     { quote: "It's hard for a good man to be king.", author: "T 'Chaka" },
     { quote: "It was my duty to fight for what I love.", author: "Nakia" },
     { quote: "Take your stinking paws off me, you damned dirty ape!", author: "Taylor" },
-    { quote: "The needs of the many outweigh... the needs of the few... Or the one.", author: "" },
+    { quote: "The needs of the many outweigh... the needs of the few... Or the one.", author: "Spock" },
 ];
 
 function getRandomQuote() {
