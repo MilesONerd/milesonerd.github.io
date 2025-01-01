@@ -14,9 +14,10 @@ jobs:
 
       - name: Update Copyright in HTML files
         run: |
-          find . -name "*.html" -exec sed -i 's/Copyright © 2024-2025/Copyright © 2024-2026/g' {} +
+          current_year=$(date +%Y)
+          find . -name "*.html" -exec sed -i "s/Copyright © 2024-[0-9]*/Copyright © 2024-${current_year}/g" {} +
           git config --global user.name "Enzo Fuke"
           git config --global user.email "150525657+MilesONerd@users.noreply.github.com"
           git add .
-          git commit -m "Updating Copyright to 2026"
+          git commit -m "Updating Copyright to 2024-${current_year}"
           git push
