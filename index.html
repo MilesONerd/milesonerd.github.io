@@ -204,17 +204,20 @@
     </footer>
 	  <script src="https://milesonerd.github.io/scripts/functions.js"></script>
 	<script>
-		if ("serviceWorker" in navigator) {
-	        	window.addEventListener("load", () => {
-	        		navigator.serviceWorker.register("/service-worker.js")
-	                    		.then(registration => {
-	                        		console.log("Service Worker successfully registered!", registration);
-	                    		})
-	                    		.catch(err => {
-	                        		console.error("Failed to register Service Worker", err);
-	                    		});
-	            	});
-	        }
+		self.addEventListener("fetch", (event) => {
+  			console.log("Request made to:", event.request.url);  
+  			event.respondWith(
+    				caches.match(event.request).then((response) => {
+      					if (response) {
+        					console.log("Serving from cache:", event.request.url); 
+        					return response; 
+      					}
+
+      					console.log("Fetching from server:", event.request.url);  
+      					return fetch(event.request);  
+    				})
+  			);
+		});
 	</script>
 </body>
 </html>
