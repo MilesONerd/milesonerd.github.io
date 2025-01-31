@@ -127,7 +127,7 @@ form label {
 
 form input[type="text"],
 form input[type="email"],
-form input[type="subject"],
+form input[name="subject"],
 form textarea {
     width: 100%;
     padding: 12px;
@@ -142,7 +142,7 @@ form textarea {
 
 form input[type="text"]:focus,
 form input[type="email"]:focus,
-form input[type="subject"]:focus,
+form input[name="subject"]:focus,
 form textarea:focus {
     border-color: #f0f0f0;
     outline: none;
