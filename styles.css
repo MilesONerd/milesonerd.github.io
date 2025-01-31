@@ -36,8 +36,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff0000;  /* Cor vermelha ao passar o mouse */
-    border: 1px solid #ff0000;  /* Adicionando a borda vermelha ao passar o mouse */
+    color: #ff0000;  
+    border: 1px solid #ff0000;  
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -91,7 +91,7 @@ a:visited {
 }
 
 a:hover {
-    color: #ff0000;  /* Mudando a cor para vermelha ao passar o mouse */
+    color: #ff0000; 
 }
 
 a:active {
@@ -115,7 +115,7 @@ form {
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Organizando os elementos do formulário com espaçamento */
+    gap: 15px; 
 }
 
 form label {
