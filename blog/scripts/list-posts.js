@@ -9,7 +9,7 @@ const postList = document.getElementById('post-list');
 const contentDiv = document.getElementById('content');
 
 async function fetchPostList() {
-    const url = `https://api.github.com/repos/${username}/${repo}/contents/blog/${folder}?ref=${branch}`;
+    const url = `https://api.github.com/repos/${username}/${repo}/contents/old/blog/${folder}?ref=${branch}`;
 
     try {
         const response = await fetch(url);
